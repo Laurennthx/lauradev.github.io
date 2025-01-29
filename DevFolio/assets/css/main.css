@@ -1783,3 +1783,196 @@ section,
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   color: #002358; /* Azul oscuro para el texto */
 }
+
+
+.about .take-a-look h4 {
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.about .take-a-look h4:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+/* Iconos de Bouba District - apartado: what you need to know */
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #007bff; /* Cambia el color si lo deseas */
+  border-radius: 50%;
+  font-size: 20px;
+  color: #007bff;
+}
+
+.feature-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Ajusta el color para resaltar */
+}
+
+/* Iconos de Bouba District - trailer e itchio
+
+    /* Estilo de los botones */
+    .btn-custom {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      background-color: #007bff11;
+      color: #0056b3;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+  }
+
+  .btn-custom:hover {
+      background-color: #003cff4b;
+  }
+
+  /* Iconos dentro de un círculo */
+  .icon-circle {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: white;
+      color: #007bff;
+      font-size: 20px;
+  }
+
+  .btn-custom:hover .icon-circle {
+      background-color: white;
+      color: #0056b3;
+  } 
+  /* fin de los ajustes de bouba district */
+
+
+
+.about-container {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.about .take-a-look h4 {
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.about .take-a-look h4:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* Definir variable para el color de los títulos */
+:root {
+  --tlc-title-color: #000000; /* Negro por defecto */
+}
+.TheLastCandle h4 {
+    font-size: 22px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--tlc-title-color); /* Usa la variable para el color */
+}
+
+/* Subrayado burdeos */
+.TheLastCandle h4:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 64px;
+    height: 3px;
+    background: #800020; /* Burdeos */
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Iconos con fondo blanco y borde burdeos */
+.TheLastCandle .icon-circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white; /* Fondo blanco */
+  border: 2px solid #800020; /* Borde burdeos */
+  color: #800020; /* Iconos burdeos */
+}
+
+/* Asegurar que los iconos dentro sean burdeos */
+.TheLastCandle .icon-circle i {
+  font-size: 20px;
+  color: #800020;
+}
+
+/* Estilos personalizados SOLO para "The Last Candle" */
+
+/* Botones dentro de "The Last Candle" */
+.TheLastCandle .btn-custom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #80002011; /* Fondo con tono burdeos claro */
+  color: #800020; /* Texto burdeos */
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.TheLastCandle .btn-custom:hover {
+  background-color: #8000204b; /* Burdeos más oscuro al pasar el ratón */
+}
+
+/* Iconos dentro de un círculo SOLO en "The Last Candle" */
+.TheLastCandle .icon-circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white; /* Fondo blanco */
+  border: 2px solid #800020; /* Borde burdeos */
+  color: #800020; /* Iconos burdeos */
+  font-size: 20px;
+}
+
+/* Efecto hover para los iconos dentro de "The Last Candle" */
+.TheLastCandle .btn-custom:hover .icon-circle {
+  background-color: white;
+  color: #a52a2a; /* Un tono más claro de burdeos al pasar el ratón */
+}
