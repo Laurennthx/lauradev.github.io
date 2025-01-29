@@ -1976,3 +1976,64 @@ section,
   background-color: white;
   color: #a52a2a; /* Un tono más claro de burdeos al pasar el ratón */
 }
+
+
+.MergeDown h4 {
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--tlc-title-color); /* Usa la variable para el color */
+}
+
+/* Subrayado burdeos */
+.MergeDown h4:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: #ffaae5; /* Burdeos */
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Botones dentro de "The Last Candle" */
+.MergeDown .btn-custom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #ffddf54b; /* Fondo con tono burdeos claro */
+  color: #490074; /* Texto burdeos */
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.MergeDown .btn-custom:hover {
+  background-color: #ff8cf94b; /* Burdeos más oscuro al pasar el ratón */
+}
+
+/* Iconos dentro de un círculo SOLO en "The Last Candle" */
+.MergeDown .icon-circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white; /* Fondo blanco */
+  border: 2px solid #490074; /* Borde burdeos */
+  color: #490074; /* Iconos burdeos */
+  font-size: 20px;
+}
+
+/* Efecto hover para los iconos dentro de "The Last Candle" */
+.MergeDown .btn-custom:hover .icon-circle {
+  background-color: white;
+  color: #490074; /* Un tono más claro de burdeos al pasar el ratón */
+}
