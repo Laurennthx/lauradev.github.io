@@ -2037,3 +2037,8 @@ section,
   background-color: white;
   color: #490074; /* Un tono más claro de burdeos al pasar el ratón */
 }
+
+.my-passions .carousel-inner img {
+  max-width: 30%;  /* Ajusta al tamaño deseado */
+  margin: auto; /* Centra las imágenes */
+}
